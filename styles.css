@@ -1,0 +1,40 @@
+/* Type selector: applies to the whole page */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+/* Type selector: distinctive headings */
+h1 {
+  color: #4B0082;
+  margin-top: 2rem;
+}
+h2 {
+  color: #009688;
+  margin-top: 1.5rem;
+}
+
+/* Class selector: highlight certain text */
+.highlight {
+  color: #e91e63;
+  background-color: #fff3e0;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+/* ID selector: special element */
+#special {
+  color: #fff;
+  background-color: #ff9800;
+  padding: 1em;
+  border: 2px solid #c66900;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Box model demonstration: padding for paragraphs */
+p {
+  padding: 0.5em 1em;
+}
